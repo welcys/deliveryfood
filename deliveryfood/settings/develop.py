@@ -1,7 +1,6 @@
 from .base import *
-
+AUTH_USER_MODEL = "user.User"
 DEBUG = True
-
 
 DATABASES = {
     'default': {'ENGINE': 'django.db.backends.mysql',
@@ -23,3 +22,5 @@ CACHES = {
         },
     },
 }
+
+

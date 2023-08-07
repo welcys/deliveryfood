@@ -125,3 +125,5 @@ LOGIN_URL = "/user/login/"
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
+
+AUTH_USER_MODEL = "user.User"
